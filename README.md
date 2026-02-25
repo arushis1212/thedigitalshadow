@@ -64,4 +64,3 @@ To experience the dashboard without setting up API keys, set `ENABLE_MOCK_MODE=t
 - **Robust Error Handling**: API failures fail-safe into localized error states rather than crashing the experience.
 
 ---
-*Created for RSA 2026. Empowering users through data transparency.*
