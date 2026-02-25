@@ -1,0 +1,272 @@
+Time: 2026-01-26T21:56:14.693Z
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Stack: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent: [404 Not Found] models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15048:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15020:9)
+    at async generateContent (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15462:22)
+    at async POST (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\[root-of-the-server]__54913099._.js:153:24)
+    at async AppRouteRouteModule.do (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:37866)
+    at async AppRouteRouteModule.handle (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45156)
+    at async responseGenerator (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16373:38)
+    at async AppRouteRouteModule.handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187713)
+    at async handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16436:32)
+    at async Module.handler (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16489:13)
+    at async DevServer.renderToResponseWithComponentsImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1442:9)
+    at async DevServer.renderPageComponent (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1494:24)
+    at async DevServer.renderToResponseImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1544:32)
+    at async DevServer.pipeImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1038:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\next-server.js:395:17)
+    at async DevServer.handleRequestImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:929:17)
+    at async C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:387:20
+    at async Span.traceAsyncFn (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:383:24)
+    at async invokeRender (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:248:21)
+    at async handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:447:24)
+    at async requestHandlerImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:496:13)
+    at async Server.requestListener (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\start-server.js:226:13)
+
+Time: 2026-01-26T21:57:39.423Z
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+Stack: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent: [404 Not Found] models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+    at handleResponseNotOk (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15048:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15020:9)
+    at async generateContent (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15462:22)
+    at async POST (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\[root-of-the-server]__54913099._.js:153:24)
+    at async AppRouteRouteModule.do (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:37866)
+    at async AppRouteRouteModule.handle (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45156)
+    at async responseGenerator (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16373:38)
+    at async AppRouteRouteModule.handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187713)
+    at async handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16436:32)
+    at async Module.handler (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16489:13)
+    at async DevServer.renderToResponseWithComponentsImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1442:9)
+    at async DevServer.renderPageComponent (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1494:24)
+    at async DevServer.renderToResponseImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1544:32)
+    at async DevServer.pipeImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1038:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\next-server.js:395:17)
+    at async DevServer.handleRequestImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:929:17)
+    at async C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:387:20
+    at async Span.traceAsyncFn (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:383:24)
+    at async invokeRender (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:248:21)
+    at async handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:447:24)
+    at async requestHandlerImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:496:13)
+    at async Server.requestListener (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\start-server.js:226:13)
+
+Time: 2026-01-26T21:58:34.104Z
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 26.075495015s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"26s"}]
+Stack: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 26.075495015s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"26s"}]
+    at handleResponseNotOk (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15048:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15020:9)
+    at async generateContent (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15462:22)
+    at async POST (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\[root-of-the-server]__54913099._.js:153:24)
+    at async AppRouteRouteModule.do (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:37866)
+    at async AppRouteRouteModule.handle (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45156)
+    at async responseGenerator (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16373:38)
+    at async AppRouteRouteModule.handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187713)
+    at async handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16436:32)
+    at async Module.handler (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16489:13)
+    at async DevServer.renderToResponseWithComponentsImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1442:9)
+    at async DevServer.renderPageComponent (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1494:24)
+    at async DevServer.renderToResponseImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1544:32)
+    at async DevServer.pipeImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1038:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\next-server.js:395:17)
+    at async DevServer.handleRequestImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:929:17)
+    at async C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:387:20
+    at async Span.traceAsyncFn (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:383:24)
+    at async invokeRender (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:248:21)
+    at async handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:447:24)
+    at async requestHandlerImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:496:13)
+    at async Server.requestListener (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\start-server.js:226:13)
+
+Time: 2026-01-26T22:06:51.614Z
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 8.55008684s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"8s"}]
+Stack: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 8.55008684s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"8s"}]
+    at handleResponseNotOk (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15048:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15020:9)
+    at async generateContent (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15462:22)
+    at async POST (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\[root-of-the-server]__54913099._.js:153:24)
+    at async AppRouteRouteModule.do (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:37866)
+    at async AppRouteRouteModule.handle (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45156)
+    at async responseGenerator (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16373:38)
+    at async AppRouteRouteModule.handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187713)
+    at async handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16436:32)
+    at async Module.handler (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16489:13)
+    at async DevServer.renderToResponseWithComponentsImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1442:9)
+    at async DevServer.renderPageComponent (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1494:24)
+    at async DevServer.renderToResponseImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1544:32)
+    at async DevServer.pipeImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1038:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\next-server.js:395:17)
+    at async DevServer.handleRequestImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:929:17)
+    at async C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:387:20
+    at async Span.traceAsyncFn (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:383:24)
+    at async invokeRender (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:248:21)
+    at async handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:447:24)
+    at async requestHandlerImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:496:13)
+    at async Server.requestListener (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\start-server.js:226:13)
+
+Time: 2026-01-26T22:08:28.066Z
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 32.155833704s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"32s"}]
+Stack: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 32.155833704s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"32s"}]
+    at handleResponseNotOk (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15048:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15020:9)
+    at async generateContent (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15462:22)
+    at async POST (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\[root-of-the-server]__54913099._.js:153:24)
+    at async AppRouteRouteModule.do (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:37866)
+    at async AppRouteRouteModule.handle (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45156)
+    at async responseGenerator (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16373:38)
+    at async AppRouteRouteModule.handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187713)
+    at async handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16436:32)
+    at async Module.handler (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16489:13)
+    at async DevServer.renderToResponseWithComponentsImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1442:9)
+    at async DevServer.renderPageComponent (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1494:24)
+    at async DevServer.renderToResponseImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1544:32)
+    at async DevServer.pipeImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1038:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\next-server.js:395:17)
+    at async DevServer.handleRequestImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:929:17)
+    at async C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:387:20
+    at async Span.traceAsyncFn (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:383:24)
+    at async invokeRender (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:248:21)
+    at async handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:447:24)
+    at async requestHandlerImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:496:13)
+    at async Server.requestListener (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\start-server.js:226:13)
+
+Time: 2026-01-26T22:15:50.773Z
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 9.475881029s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"9s"}]
+Stack: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 9.475881029s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"9s"}]
+    at handleResponseNotOk (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15048:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15020:9)
+    at async generateContent (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15462:22)
+    at async POST (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\[root-of-the-server]__54913099._.js:153:24)
+    at async AppRouteRouteModule.do (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:37866)
+    at async AppRouteRouteModule.handle (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45156)
+    at async responseGenerator (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16373:38)
+    at async AppRouteRouteModule.handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187713)
+    at async handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16436:32)
+    at async Module.handler (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16489:13)
+    at async DevServer.renderToResponseWithComponentsImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1442:9)
+    at async DevServer.renderPageComponent (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1494:24)
+    at async DevServer.renderToResponseImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1544:32)
+    at async DevServer.pipeImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1038:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\next-server.js:395:17)
+    at async DevServer.handleRequestImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:929:17)
+    at async C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:387:20
+    at async Span.traceAsyncFn (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:383:24)
+    at async invokeRender (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:248:21)
+    at async handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:447:24)
+    at async requestHandlerImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:496:13)
+    at async Server.requestListener (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\start-server.js:226:13)
+
+Time: 2026-01-26T22:17:28.759Z
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 31.527002185s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"31s"}]
+Stack: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 31.527002185s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"31s"}]
+    at handleResponseNotOk (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15048:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15020:9)
+    at async generateContent (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15462:22)
+    at async POST (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\[root-of-the-server]__54913099._.js:153:24)
+    at async AppRouteRouteModule.do (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:37866)
+    at async AppRouteRouteModule.handle (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45156)
+    at async responseGenerator (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16373:38)
+    at async AppRouteRouteModule.handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187713)
+    at async handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16436:32)
+    at async Module.handler (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16489:13)
+    at async DevServer.renderToResponseWithComponentsImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1442:9)
+    at async DevServer.renderPageComponent (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1494:24)
+    at async DevServer.renderToResponseImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1544:32)
+    at async DevServer.pipeImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1038:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\next-server.js:395:17)
+    at async DevServer.handleRequestImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:929:17)
+    at async C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:387:20
+    at async Span.traceAsyncFn (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:383:24)
+    at async invokeRender (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:248:21)
+    at async handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:447:24)
+    at async requestHandlerImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:496:13)
+    at async Server.requestListener (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\start-server.js:226:13)
+
+Time: 2026-01-26T22:17:57.431Z
+Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 2.743848981s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.0-flash-exp","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"2s"}]
+Stack: Error: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash-exp
+Please retry in 2.743848981s. [{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-2.0-flash-exp","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-2.0-flash-exp"}}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"2s"}]
+    at handleResponseNotOk (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15048:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async makeRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15020:9)
+    at async generateContent (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:15462:22)
+    at async POST (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\[root-of-the-server]__54913099._.js:153:24)
+    at async AppRouteRouteModule.do (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:37866)
+    at async AppRouteRouteModule.handle (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:5:45156)
+    at async responseGenerator (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16373:38)
+    at async AppRouteRouteModule.handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js:1:187713)
+    at async handleResponse (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16436:32)
+    at async Module.handler (C:\Users\arush\Desktop\digital-shadow-dashboard\.next\dev\server\chunks\fb89b_f2708caf._.js:16489:13)
+    at async DevServer.renderToResponseWithComponentsImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1442:9)
+    at async DevServer.renderPageComponent (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1494:24)
+    at async DevServer.renderToResponseImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1544:32)
+    at async DevServer.pipeImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:1038:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\next-server.js:395:17)
+    at async DevServer.handleRequestImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\base-server.js:929:17)
+    at async C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:387:20
+    at async Span.traceAsyncFn (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\trace\trace.js:157:20)
+    at async DevServer.handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\dev\next-dev-server.js:383:24)
+    at async invokeRender (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:248:21)
+    at async handleRequest (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:447:24)
+    at async requestHandlerImpl (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\router-server.js:496:13)
+    at async Server.requestListener (C:\Users\arush\Desktop\digital-shadow-dashboard\node_modules\next\dist\server\lib\start-server.js:226:13)
+
